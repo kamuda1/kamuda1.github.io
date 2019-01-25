@@ -4,21 +4,41 @@ title: Home
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Mark</h1>
-	<p>I'm a PhD candidate in the <a href="http://arfc.github.io">Advanced Reactor and Fuel Cycle</a> group at the <a href="https://npre.illinois.edu/">Department of Nuclear, Plasma, and Radiological Engineering</a> at the <a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>. My research focuses on applying machine learning to pattern recognition problems in nuclear security and nuclear treaty verification. As a part of my research, I am developing <a href="https://github.com/kamuda1/annsa">annsa</a>, a Python package for quick gamma-ray spectroscopy datasets prototyping and deep learning using TensorFlow. My interests include advances in deep learning and generative art.
+
+<br>
+    <h4>Projects</h4>
+  
+    <font size="3">
     
-    
-    <h4>Education</h4>
-
-    <p><strong>Ph.D. Candidate in Nuclear Engineering</strong>, May 2017 - May 2019 (expected)<br>
-    Department of Nuclear, Plasma, and Radiological Engineering, UIUC</p>
-
-    <p><strong>M.S. in Nuclear Engineering</strong>, Aug 2014 - May 2017<br>
-    Department of Nuclear, Plasma, and Radiological Engineering, University of Illinois at Urbana-Champaign</p>
-
-
-    <p><strong>B.S. in Nuclear Engineering</strong>, Aug 2010 - May 2014<br>
-    Department of Nuclear, Plasma, and Radiological Engineering, University of Illinois at Urbana-Champaign</p>
-    </p> 
-
+      <p><strong> Artificial Neural Network for Spectral Analysis </strong> <a href="https://github.com/arfc/annsa" target="_blank">(GitHub)</a>
+      <table width="150%" align="center" border="0" cellpadding="20">
+      <ul>
+      <li> Developed a Python package applying deep learning algorithms to custom datasets</li>
+      <li> Synthesized domain specific datasets for regression and classification tasks</li>
+      <li> Automated hyperparameter searches for dense, convolution, and autoencoder neural networks</li>
+      <li> Managed and organized project using GitHub</li>
+      <li> Trained machine learning models using Amazon Web Services</li>
+      </ul>
+      </table>
+      </p>
+      
+      <p><strong>A Comparison of Machine Learning Methods for Automated Gamma-Ray Spectroscopy</strong>
+      <table width="150%" align="center" border="0" cellpadding="20">
+      <ul>
+      <li> Compared convolution and dense neural networks for multiclass signal classification</li>
+      <li> Studied both algorithms robustness to real-world data perturbations</li>
+      <li> Published results in Nuclear Instruments and Methods in Physics Research Section A</li>
+      </ul>
+      </table>
+      </p>
+      
+      <p><strong>Automated Isotope Identification Algorithm Using Artificial Neural Networks</strong><br>
+      <table width="150%" align="center" border="0" cellpadding="20">
+      <ul>
+      <li> Employed a multiclass logarithmic regression neural network for signal classification and regression</li>
+      <li> Published results in IEEE Transactions on Nuclear Science</li>
+      </ul>
+      </table>
+      </p>
+      </font>
 </div>

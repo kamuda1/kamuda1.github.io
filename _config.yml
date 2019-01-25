@@ -14,10 +14,10 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
+ - title: Projects
+   url: /experience
  - title: Presentations
    url: /presentations
- - title: Experience
-   url: /experience
  - title: Resume
    url: /kamuda_resume.pdf
  - title: Contact
