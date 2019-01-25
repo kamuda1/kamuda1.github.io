@@ -4,7 +4,26 @@ title: Home
 ---
 
 <div class="post">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
 <br>
     <h4>Projects</h4>
   
@@ -21,7 +40,7 @@ title: Home
       </ul>
       </table>
       </p>
-      
+
       <p><strong>A Comparison of Machine Learning Methods for Automated Gamma-Ray Spectroscopy</strong>
       <table width="150%" align="center" border="0" cellpadding="20">
       <ul>
@@ -29,6 +48,16 @@ title: Home
       <li> Studied both algorithms robustness to real-world data perturbations</li>
       <li> Published results in Nuclear Instruments and Methods in Physics Research Section A</li>
       </ul>
+      
+      <div class="row">
+        <div class="column">
+          <img src="../assets/img/ConfusionMatrixANN.png" alt="DNN Confusion Matrix" style="width:90%">
+        </div>
+        <div class="column">
+          <img src="../assets/img/ConfusionMatrixCNN.png" alt="CNN Confusion Matrix" style="width:90%">
+        </div>
+      </div>
+      
       </table>
       </p>
       
