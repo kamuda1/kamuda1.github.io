@@ -4,29 +4,12 @@ title: Home
 ---
 
 <div class="post">
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
 <br>
-    <h4>Projects</h4>
-  
+    <font size="6">
+    <h4>Research Projects</h4>
+    </font>
+    
     <font size="3">
     
       <p><strong> Artificial Neural Network for Spectral Analysis </strong> <a href="https://github.com/arfc/annsa" target="_blank">(GitHub)</a>
@@ -48,7 +31,26 @@ title: Home
       <li> Studied both algorithms robustness to real-world data perturbations</li>
       <li> Published results in Nuclear Instruments and Methods in Physics Research Section A</li>
       </ul>
-      
+      <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+      </head>
       <div class="row">
         <div class="column">
           <img src="../assets/img/ConfusionMatrixANN.png" alt="DNN Confusion Matrix" style="width:90%">
@@ -69,5 +71,8 @@ title: Home
       </ul>
       </table>
       </p>
-      </font>
+      
+      <br>
+      <br>
+      
 </div>
