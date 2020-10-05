@@ -18,8 +18,6 @@ navigation:
    url: /experience
  - title: Hobby Projects
    url: /hobby_projects
- - title: Presentations
-   url: /presentations
  - title: Resume
    url: /kamuda_resume.pdf
  - title: Contact
