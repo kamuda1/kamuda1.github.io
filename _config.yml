@@ -18,8 +18,6 @@ navigation:
    url: /experience
  - title: Hobby Notebook
    url: /blog
-# - title: Notebook 
-#   url: /blog
  - title: Resume
    url: /kamuda_resume.pdf
  - title: Contact
