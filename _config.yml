@@ -3,21 +3,23 @@ description: Personal Blog for Mark
 
 url: https://github.com/kamuda1
 baseurl: ""
-paginate_path: "blog/page:num/"
+#paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
+#gems: [jekyll-paginate]
+#paginate: 5
 
 navigation:
  - title: Home
    url: /index.html
  - title: Professional Projects
    url: /experience
- - title: Hobby Projects
-   url: /hobby_projects
+ - title: Hobby Notebook
+   url: /blog
+# - title: Notebook 
+#   url: /blog
  - title: Resume
    url: /kamuda_resume.pdf
  - title: Contact
