@@ -1,3 +1,4 @@
+// This is a modified version of https://p5js.org/examples/interaction-tickle.html
 
 function setup() {
     createCanvas(700, 400);
