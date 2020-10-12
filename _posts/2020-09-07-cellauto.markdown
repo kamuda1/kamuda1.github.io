@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Cellauto Rain"
+---
+
+
+<font size="4"> 
+<p> <a href="https://github.com/kamuda1/cellular_automata" target="_blank"><strong>Cellauto Rain</strong></a> is currently a work-in-progress project I'm using to explore fluid simulations and cellular automata. It leverages the javascript library <a href="https://github.com/sanojian/cellauto" target="_blank"> cellauto</a> </p>
+    
+<iframe src="../../cellauto/index.html" width="300px" height="300px"></iframe>   
+
+
