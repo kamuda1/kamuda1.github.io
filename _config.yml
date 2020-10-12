@@ -14,8 +14,6 @@ highlighter: rouge
 navigation:
  - title: Home
    url: /index.html
- - title: Professional Projects
-   url: /experience
  - title: Hobby Notebook
    url: /blog
  - title: Resume

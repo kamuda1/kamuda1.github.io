@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "Primitive Art"
+title:  "Generative Art with Random Primitives"
 ---
 
-
-  <p><strong>Generative Art with Random Primitives</strong> <a href="https://github.com/kamuda1/primitive-art" target="_blank">(GitHub)</a> 
+<font size="4"> <p>
+  These are some examples of art generated using randomly placed and colored geometric primitives. The images are creating using PIL and numpy. Check out and remix the code <a href="https://github.com/kamuda1/primitive-art" target="_blank">here. 
+<p>
+    
   <table width="150%" align="center" border="0" cellpadding="20">
-  <ul>
-  <li>Examples of art generated using random primitives using PIL and numpy in Python</li>
-  </ul>
-
   <img src="../../assets/img/triangle_gradient.png" alt="triangle_gradient" hspace="25"  class="center" style="width:40%">
 
   <img src="../../assets/img/rand_angled.png" alt="rand_angled" hspace="25" class="center" style="width:40%">

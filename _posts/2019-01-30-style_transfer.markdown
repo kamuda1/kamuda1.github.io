@@ -4,12 +4,11 @@ title:  "Simple Style Transfer"
 ---
 
 
-<font size="3"> 
-<p><strong>Simple Color Style Transfer</strong> <a href="https://github.com/kamuda1/simple-style-transfer" target="_blank">(GitHub)</a> 
+<font size="4"> 
+<p><a href="https://github.com/kamuda1/simple-style-transfer" target="_blank"><strong>Simple Color Style Transfer</strong></a> uses the GMM-EM model from scikit-learn to perform color transfer from one image to another. </p>
+
+
 <table width="150%" align="center" border="0" cellpadding="20">
-<ul>
-<li> Color Transfer using the scikit-learn GMM-EM model</li>
-</ul>
 
 
 <img src="../../assets/img/nacho_starry_night_math.png" alt="nacho_starry_night_math" hspace="25"  class="center" style="width:95%">
@@ -19,4 +18,3 @@ title:  "Simple Style Transfer"
 
 
 </table>
-</p>
