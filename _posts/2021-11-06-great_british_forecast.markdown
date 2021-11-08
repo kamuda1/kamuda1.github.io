@@ -57,15 +57,31 @@ predict a very similar vector. It may be difficult to train the model from the l
 Instead of the above method, for each episode we can encode the winner of the technical challenge. This may increase 
 generalization by showing the model more examples of winning vectors. Using a random forest from sklearn <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html" target="_blank">[link]</a>
 
+<br> <br>
+
+If we train a random forest using these features and target, how well can we expect our estimator to perform? Doing 
+5-folds cross validation with the default random forest classifier in sklearn, we find an average test accuracy of 90%.
+This sounds like a promising accuracy, but the cross validation precision and recall are more informative. The average 
+cross validation precision is 63% and the average cross validation recall is 34%. This means that when the model 
+predicts a contestant will win an episode, we can be 63% sure that the contestant will win. The 34% recall means that we
+correctly predict 34% of the winning contestants. 
+
+<br> <br>
+The poor precision and recall are likely due to the large number of data points we have early in a season. It's very 
+hard to predict the winner of the show early because at that point the contestants have not demonstrated enough skill to
+differentiate the winner from the others. We can verify this if we compare precision and recall vs episode number. This 
+theory is false if we find that precision and recall don't appreciably increase as the episode number increases.
 
 <br> <br>
 The fact that technical placement is enough information to accurately predict the winner shouldn't be too surprising. 
-Strong, consistent technical skills are neccessary to excecute a task quickly. 
+Strong, consistent technical skills are neccessary to excecute a task quickly. This is largely the skill required to 
+succeed on the baking show. 
 
  </p>
  
-<font size="4"> <p> Future work includes adding more features from wikipedia and quantifying how much these extra 
+<font size="4"> <p> Future work includes adding more features (see Table 2) from wikipedia and quantifying how much these extra 
 features improve performance. </p>
 
 
+<font size="4"> <center> Table 2 </center>
 <img src="../../assets/img/great_british_extra_features.png"  hspace="50"  class="center" style="width:90%">
