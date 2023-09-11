@@ -16,13 +16,11 @@ navigation:
    url: /index.html
  - title: Hobby Notebook
    url: /blog
- - title: Resume
-   url: /kamuda_resume.pdf
  - title: Contact
    url: /contact
 
 social:
    github: kamuda1
-   email: kamuda1@illinois.com
+   email: mark.kamuda@gmail.com
 
 google_analytics: "UA-58263416-1"
