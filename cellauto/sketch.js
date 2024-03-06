@@ -1,6 +1,6 @@
 
 function setup() {
-    createCanvas(256, 256);   
+    createCanvas(256, 256);
     background(256, 256, 256);    
     rain_rate = 0.05
     inital_distrib_rate = 0.999
