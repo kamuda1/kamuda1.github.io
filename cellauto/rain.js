@@ -121,7 +121,7 @@ function setup() {
 }
 
 function draw_grid() {
-    background(256, 256, 256);    
+    background(256, 256, 256);
     for (var y=1; y<this.world.height; y++) {
         for (var x=1; x<this.world.width; x++) {
             var cell = this.world.grid[y][x];
